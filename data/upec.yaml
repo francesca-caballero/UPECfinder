@@ -1,0 +1,75 @@
+%YAML 1.2
+---
+# metadata: general information about the schema
+metadata:
+  id: "upec_finder"                                # unique identifier for the schema
+  name: "UPECfinder"                              # name of the schema
+  description: "A schema for UPEC identification"  # description of the schema
+  version: "0.0.1"                                     # version of the schema
+  curators:                                          # a list of curators of the schema
+    - "Francesca Caballero"
+
+# engine: specifies the computational tools and additional parameters used for sequence
+#         analysis.
+engine:
+  type: blast   # type of tool used to generate the data
+  tool: blastn  # tool used to generate the data
+  params:       # additional parameters for the tool
+    min_pident: 90   # minimum percent identity for the tool
+    min_coverage: 90 # minimum percent coverage for the tool
+
+# targets: lists the specific sequence targets such as genes, proteins, or markers that the
+#          schema will analyze. these should be included in the associated sequence query data
+targets:
+  - "vat:2:AY151282"
+  - "yfcV:37:UGFD01000001"
+  - "chuA:10:UFZA01000001"
+  - "fyuA:96:UGGK01000002"
+
+# aliases: groups multiple targets under a common name for easier reference
+aliases:
+  - name: "vat"           # name of the alias
+    targets: ["vat:2:AY151282"]  # list of targets that are part of the alias
+  - name: "yfcV"
+    targets: ["yfcV:37:UGFD01000001"]
+  - name: "chuA"
+    targets: ["chuA:10:UFZA01000001"]
+  - name: "fyuA"
+    targets: ["fyuA:96:UGGK01000002"]
+
+# types: define specific combinations of targets and aliases to form distinct types
+types:
+  - name: "UPEC vat/yfcV/chuA"          # name of the profile
+    targets:           # list of targets (can use aliases) that are part of the profile
+      - "vat"
+      - "yfcV"
+      - "chuA"
+    excludes:          # list of targets that if present will exclude the type
+      - "fyuA"
+  - name: "UPEC vat/yfcV/fyuA"
+    targets:
+      - "vat"
+      - "yfcV"
+      - "fyuA"
+    excludes:
+      - "chuA"
+  - name: "UPEC yfcV/fyuA/chuA"
+    targets:
+      - "yfcV"
+      - "fyuA"
+      - "chuA"
+    excludes:
+      - "vat"
+  - name: "UPEC vat/chuA/fyuA"
+    targets:
+      - "vat"
+      - "chuA"
+      - "fyuA"
+    excludes:
+      - "yfcV"
+  - name: "UPEC vat/yfcV/chuA/fyuA"
+    targets:
+      - "vat"
+      - "yfcV"
+      - "chuA"
+      - "fyuA"
