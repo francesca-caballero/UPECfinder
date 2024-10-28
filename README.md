@@ -31,7 +31,7 @@ Usage: camlhmp-blast-regions [OPTIONS]
 ╭─ Options ─────────────────────────────────────────────────────────────────────────────────────╮
 │ *  --input         -i  TEXT     Input file in FASTA format to classify [required]             │
 │ *  --yaml          -y  TEXT     YAML file documenting the targets and types                   │
-│                                 [default: bin/../data/upec. .yaml]                            │
+│                                 [default: bin/../data/upec.yaml]                              │
 │                                 [required]                                                    │
 │ *  --targets       -t  TEXT     Query targets in FASTA format                                 │
 │                                 [default: bin/../data/targets.fasta]                          │
