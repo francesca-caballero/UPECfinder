@@ -16,7 +16,7 @@ The identification of virulence genes in UPEC is available as a web-service from
 ### Conda
 
 ```{bash}
-mamba create -n UPECfinder -c conda-forge -c bioconda UPECfinder
+conda create -n UPECfinder -c conda-forge -c bioconda UPECfinder
 conda activate UPECfinder
 UPECfinder --help
 ```
