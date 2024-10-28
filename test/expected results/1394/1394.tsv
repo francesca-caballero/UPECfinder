@@ -1,0 +1,2 @@
+sample	type	targets	coverage	hits	schema	schema_version	camlhmp_version	params	comment
+1394	UPEC vat/yfcV/chuA/fyuA	vat:2:AY151282,yfcV:37:UGFD01000001,chuA:10:UFZA01000001,fyuA:96:UGGK01000002	100.00,100.00,100.00,100.00	1,1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	
