@@ -1,0 +1,6 @@
+sample	type	status	targets	missing	coverage	hits	schema	schema_version	camlhmp_version	params	comment
+1391	UPEC vat/yfcV/chuA	False	vat:2:AY151282,yfcV:37:UGFD01000001,chuA:10:UFZA01000001		100.00,100.00,100.00	1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	Excluded target fyuA:96:UGGK01000002 found, failing type UPEC vat/yfcV/chuA
+1391	UPEC vat/yfcV/fyuA	False	vat:2:AY151282,yfcV:37:UGFD01000001,fyuA:96:UGGK01000002		100.00,100.00,100.00	1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	Excluded target chuA:10:UFZA01000001 found, failing type UPEC vat/yfcV/fyuA
+1391	UPEC yfcV/fyuA/chuA	False	yfcV:37:UGFD01000001,fyuA:96:UGGK01000002,chuA:10:UFZA01000001		100.00,100.00,100.00	1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	Excluded target vat:2:AY151282 found, failing type UPEC yfcV/fyuA/chuA
+1391	UPEC vat/chuA/fyuA	False	vat:2:AY151282,chuA:10:UFZA01000001,fyuA:96:UGGK01000002		100.00,100.00,100.00	1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	Excluded target yfcV:37:UGFD01000001 found, failing type UPEC vat/chuA/fyuA
+1391	UPEC vat/yfcV/chuA/fyuA	True	vat:2:AY151282,yfcV:37:UGFD01000001,chuA:10:UFZA01000001,fyuA:96:UGGK01000002		100.00,100.00,100.00,100.00	1,1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	
