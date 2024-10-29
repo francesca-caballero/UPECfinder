@@ -126,11 +126,11 @@ This file provides the the coverage and number of hits for each of the types. Th
 
 ```{bash}
 sample	type	status	targets	missing	coverage	hits	schema	schema_version	camlhmp_version	params	comment
-camlhmp	UPEC vat/yfcV/chuA	FALSE	vat:2:AY151282,yfcV:37:UGFD01000001,chuA:10:UFZA01000001		100.00,100.00,100.00	1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	Excluded target fyuA:96:UGGK01000002 found, failing type UPEC vat/yfcV/chuA
-camlhmp	UPEC vat/yfcV/fyuA	FALSE	vat:2:AY151282,yfcV:37:UGFD01000001,fyuA:96:UGGK01000002		100.00,100.00,100.00	1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	Excluded target chuA:10:UFZA01000001 found, failing type UPEC vat/yfcV/fyuA
-camlhmp	UPEC yfcV/fyuA/chuA	FALSE	yfcV:37:UGFD01000001,fyuA:96:UGGK01000002,chuA:10:UFZA01000001		100.00,100.00,100.00	1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	Excluded target vat:2:AY151282 found, failing type UPEC yfcV/fyuA/chuA
-camlhmp	UPEC vat/chuA/fyuA	FALSE	vat:2:AY151282,chuA:10:UFZA01000001,fyuA:96:UGGK01000002		100.00,100.00,100.00	1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	Excluded target yfcV:37:UGFD01000001 found, failing type UPEC vat/chuA/fyuA
-camlhmp	UPEC vat/yfcV/chuA/fyuA	TRUE	vat:2:AY151282,yfcV:37:UGFD01000001,chuA:10:UFZA01000001,fyuA:96:UGGK01000002		100.00,100.00,100.00,100.00	1,1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	
+1366	UPEC vat/yfcV/chuA	FALSE	vat:2:AY151282,yfcV:37:UGFD01000001,chuA:10:UFZA01000001		100.00,100.00,100.00	1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	Excluded target fyuA:96:UGGK01000002 found, failing type UPEC vat/yfcV/chuA
+1366	UPEC vat/yfcV/fyuA	FALSE	vat:2:AY151282,yfcV:37:UGFD01000001,fyuA:96:UGGK01000002		100.00,100.00,100.00	1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	Excluded target chuA:10:UFZA01000001 found, failing type UPEC vat/yfcV/fyuA
+1366	UPEC yfcV/fyuA/chuA	FALSE	yfcV:37:UGFD01000001,fyuA:96:UGGK01000002,chuA:10:UFZA01000001		100.00,100.00,100.00	1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	Excluded target vat:2:AY151282 found, failing type UPEC yfcV/fyuA/chuA
+1366	UPEC vat/chuA/fyuA	FALSE	vat:2:AY151282,chuA:10:UFZA01000001,fyuA:96:UGGK01000002		100.00,100.00,100.00	1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	Excluded target yfcV:37:UGFD01000001 found, failing type UPEC vat/chuA/fyuA
+1366	UPEC vat/yfcV/chuA/fyuA	TRUE	vat:2:AY151282,yfcV:37:UGFD01000001,chuA:10:UFZA01000001,fyuA:96:UGGK01000002		100.00,100.00,100.00,100.00	1,1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	<img width="1618" alt="image" src="https://github.com/user-attachments/assets/eb662437-15d3-44d0-87ae-aa7f6f7b04b7">
 ```
 
 | Column Name     | Description                                                              |
