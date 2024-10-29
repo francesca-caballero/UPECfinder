@@ -1,5 +1,5 @@
 # UPECfinder
-A tool easily taken advantage of for in silico identification of Uropathogenic Escherichia coli (UPEC) isolates.
+An easy-to-use tool for in silico identification of uropathogenic Escherichia coli (UPEC) isolates.
 
 ## A Quick Note
 
