@@ -25,6 +25,8 @@ for dir in results/*/; do
         fi
     done
 done
+
+awk '!seen[$0]++' results.tsv > temp && mv temp completed-genomes.tsv
 ```
 
 
