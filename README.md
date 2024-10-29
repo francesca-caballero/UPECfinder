@@ -7,7 +7,7 @@ The identification of virulence genes in UPEC is available as a web-service from
 
 ## Introduction
 
-`UPECfinder` is built using [camlhmp] (https://github.com/rpetit3/camlhmp) to identify Uropathogenic E. coli isolates. Using an input assembly (uncompressed or gzip-compressed), the sequences are blasted against a set of virulence genes. The genetic definition of UPEC consists of the presence of three or more of the genes vat, yfcV, chuA, and fyuA, according to Spurbeck et al.
+`UPECfinder` is built using [camlhmp] (https://github.com/rpetit3/camlhmp) to identify Uropathogenic _E. coli_ isolates. Using an input assembly (uncompressed or gzip-compressed), the sequences are blasted against a set of virulence genes. The genetic definition of UPEC consists of the presence of three or more of the genes vat, yfcV, chuA, and fyuA, according to Spurbeck et al.
 
 ## Installation
 
