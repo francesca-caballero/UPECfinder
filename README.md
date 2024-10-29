@@ -52,7 +52,7 @@ Usage: camlhmp-blast-regions [OPTIONS]
 
 An assembly in FASTA format (compressed with gzip, or uncompressed) to identify whether it is a UPEC.
 
-### --yaml && --targets
+### --yaml & --targets
 
 __*Note: These should be automatically set for you!*__
 
