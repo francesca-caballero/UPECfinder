@@ -92,7 +92,7 @@ This file will contain the final predicted type based on highest coverage. Here'
 
 ```{bash}
 sample	type	targets	coverage	hits	schema	schema_version	camlhmp_version	params	comment
-camlhmp	UPEC vat/yfcV/chuA/fyuA	vat:2:AY151282,yfcV:37:UGFD01000001,chuA:10:UFZA01000001,fyuA:96:UGGK01000002	100.00,100.00,100.00,100.00	1,1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90	
+1366	UPEC vat/yfcV/chuA/fyuA	vat:2:AY151282,yfcV:37:UGFD01000001,chuA:10:UFZA01000001,fyuA:96:UGGK01000002	100.00,100.00,100.00,100.00	1,1,1,1	upec_finder	0.0.1	1.1.0	min-coverage=90;min-pident=90
 ```
 
 | Column Name     | Description                                                              |
@@ -114,11 +114,10 @@ The blast results are in standard `-outfmt 6`, and will be similar to this:
 
 ```{bash}
 qseqid	sseqid	pident	qcovs	qlen	slen	length	nident	mismatch	gapopen	qstart	qend	sstart	send	evalue	bitscore
-vat:2:AY151282	GCA_002763515.3_ASM276351v3_genomic_CP024650.2	99.323	100	4134	5072943	4137	4109	19	8	1	4134	377664	373534	0.0	7476
-yfcV:37:UGFD01000001	GCA_002763515.3_ASM276351v3_genomic_CP024650.2	96.512	100	750	5072943	774	747	3	1	1	750	2516234	2515461	0.0	1258
-chuA:10:UFZA01000001	GCA_002763515.3_ASM276351v3_genomic_CP024650.2	98.336	100	1983	5072943	1983	1950	33	0	1	1983	3890693	3888711	0.0	3480
-chuA:62:CYCK01000002	GCA_002763515.3_ASM276351v3_genomic_CP024650.2	90.318	100	1983	5072943	1983	1791	192	0	1	1983	3890693	3888711	0.0	2599
-fyuA:96:UGGK01000002	GCA_002763515.3_ASM276351v3_genomic_CP024650.2	99.903	100	2055	5072943	2056	2054	1	1	1	2055	2019265	2021320	0.0	3784
+vat:2:AY151282	1366_NODE_3_length_594660_cov_59.710600	99.589	100	4134	594660	4137	4120	9	7	1	4134	94432	90301	0.0	7539
+yfcV:37:UGFD01000001	1366_NODE_5_length_359795_cov_56.776010	96.641	100	750	359795	774	748	2	5	1	750	29223	29996	0.0	1264
+chuA:10:UFZA01000001	1366_NODE_9_length_203436_cov_73.223925	98.336	100	1983	203436	1983	1950	33	0	1	1983	17378	19360	0.0	3480
+fyuA:96:UGGK01000002	1366_NODE_1_length_636446_cov_48.946104	99.903	100	2055	636446	2056	2054	1	1	1	2055	102614	100559	0.0	3784
 ```
 
 ### Example `{PREFIX}.details.tsv`
